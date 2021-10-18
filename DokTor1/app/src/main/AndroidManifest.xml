@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kp.doktor">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="DokTor"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.kp.doktor.Splash"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.kp.doktor.MenuUtama" />
+        <activity android:name="com.example.kp.doktor.MenuPerawatan" />
+        <activity android:name="com.example.kp.doktor.MenuKerusakan" />
+        <activity android:name="com.example.kp.doktor.ListMesin" />
+        <activity android:name="com.example.kp.doktor.G1Activity" />
+        <activity android:name="com.example.kp.doktor.G2Activity" />
+        <activity android:name="com.example.kp.doktor.G3Activity" />
+        <activity android:name="com.example.kp.doktor.G4Activity" />
+        <activity android:name="com.example.kp.doktor.G5Activity" />
+        <activity android:name="com.example.kp.doktor.G6Activity" />
+        <activity android:name="com.example.kp.doktor.G7Activity" />
+        <activity android:name="com.example.kp.doktor.G8Activity" />
+        <activity android:name="com.example.kp.doktor.G9Activity" />
+        <activity android:name="com.example.kp.doktor.G10Activity" />
+        <activity android:name="com.example.kp.doktor.G11Activity" />
+        <activity android:name="com.example.kp.doktor.CFMesin" />
+        <activity android:name="com.example.kp.doktor.ListListrik" />
+        <activity android:name="com.example.kp.doktor.G12Activity" />
+        <activity android:name="com.example.kp.doktor.G13Activity" />
+        <activity android:name="com.example.kp.doktor.G14Activity" />
+        <activity android:name="com.example.kp.doktor.G15Activity" />
+        <activity android:name="com.example.kp.doktor.G16Activity" />
+        <activity android:name="com.example.kp.doktor.G17Activity" />
+        <activity android:name="com.example.kp.doktor.G18Activity" />
+        <activity android:name="com.example.kp.doktor.G19Activity" />
+        <activity android:name="com.example.kp.doktor.G20Activity" />
+        <activity android:name="com.example.kp.doktor.G21Activity" />
+        <activity android:name="com.example.kp.doktor.G22Activity" />
+        <activity android:name="com.example.kp.doktor.G23Activity" />
+        <activity android:name="com.example.kp.doktor.G24Activity" />
+        <activity android:name="com.example.kp.doktor.G25Activity" />
+        <activity android:name="com.example.kp.doktor.G26Activity" />
+        <activity android:name="com.example.kp.doktor.G27Activity" />
+        <activity android:name="com.example.kp.doktor.G28Activity" />
+        <activity android:name="com.example.kp.doktor.G29Activity" />
+        <activity android:name="com.example.kp.doktor.G30Activity" />
+        <activity android:name="com.example.kp.doktor.G31Activity" />
+        <activity android:name="com.example.kp.doktor.CFListrik" />
+        <activity
+            android:name="com.example.kp.doktor.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.kp.doktor.Deskripsi" />
+        <activity android:name="com.example.kp.doktor.Penyebab" />
+        <activity android:name="com.example.kp.doktor.Perbaikan" />
+        <activity android:name="com.example.kp.doktor.Deskripsi2" />
+        <activity android:name="com.example.kp.doktor.Deskripsi_Piston" />
+        <activity android:name="com.example.kp.doktor.Penyebab_Piston" />
+        <activity android:name="com.example.kp.doktor.Perbaikan_Piston" />
+        <activity android:name="com.example.kp.doktor.TentangAplikasi" />
+        <activity android:name="com.example.kp.doktor.MenuBantuan"></activity>
+    </application>
+
+</manifest>
